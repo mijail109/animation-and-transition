@@ -1,35 +1,23 @@
-*{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-title{
-	font-weight: bold;
-	color: chocolate;
-	font-size: 200px;
-}
-h2 {color:rgb(118, 119, 187);}
-.marc {
-		width:1420px;
-		border:solid 1px rgb(71, 252, 111);
+h2 {color:#fff;}
+.marc {width:1220px;
+		border:solid 1px #f36;
 		height:250px;
 		padding:50px;
-		background:#c6ff97;
+		background:#873e23;
 }
 
-.shape1 
-		{width:100px;
+.shape1 {width:100px;
 		height:100px;
-		background:rgb(83, 11, 80);
+		background:#fff;
 }
 h2 {transition: all 5s;}
 h2:hover {font-size:2.5em;
-			color:rgb(63, 9, 9)}
+			color:red}
 
 
 /* demo de la primera transició*/
 .transicio1 {transition:background-color 5s;}	
-.transicio1:hover {background:rgb(124, 190, 124);}
+.transicio1:hover {background:green;}
 
 
 /*segona transició*/
