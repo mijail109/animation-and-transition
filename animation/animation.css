@@ -1,0 +1,84 @@
+h2 {color:#fff;}
+.marc {width:1220px;
+		border:solid 1px #f36;
+		height:250px;
+		padding:50px;
+		background:#873e23;
+}
+
+.shape1 {width:100px;
+		height:100px;
+		background:#fff;
+}
+
+/* demo de la primera animació*/
+.animacio1 {
+  animation: canvia-color 5s infinite;
+}
+
+@keyframes canvia-color {
+  0% {
+    background-color: #001F3F;
+  }
+
+  /*50% {
+    background-color: green;
+  }*/
+
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+/*defineix la resta d'animacions a partir d'aquí */
+
+/*segona animació*/
+.animacio2 {
+  animation: rotacio 1s linear infinite;
+}
+
+@keyframes rotacio {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*tercera animació*/
+.animacio3 {
+  animation: desplaci-dreta_canvia-color 5s infinite;
+}
+
+@keyframes desplaci-dreta_canvia-color {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(300px);
+    background: goldenrod;
+  }
+  100% {
+    transform: translate(0px);
+    background: goldenrod;
+  }
+  
+}
+
+
+/*cuarta animació*/
+.animacio4 {
+  animation: canvia-tamany 5s infinite;
+}
+
+@keyframes canvia-tamany {
+  0% {
+    
+  }
+  
+  100% {
+    transform: scale(1.5);
+  }
+}

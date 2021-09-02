@@ -1,0 +1,72 @@
+*{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+title{
+	font-weight: bold;
+	color: chocolate;
+	font-size: 200px;
+}
+h2 {color:rgb(118, 119, 187);}
+.marc {
+		width:1420px;
+		border:solid 1px rgb(71, 252, 111);
+		height:250px;
+		padding:50px;
+		background:#c6ff97;
+}
+
+.shape1 
+		{width:100px;
+		height:100px;
+		background:rgb(83, 11, 80);
+}
+h2 {transition: all 5s;}
+h2:hover {font-size:2.5em;
+			color:rgb(63, 9, 9)}
+
+
+/* demo de la primera transició*/
+.transicio1 {transition:background-color 5s;}	
+.transicio1:hover {background:rgb(124, 190, 124);}
+
+
+/*segona transició*/
+.transicio2 {
+	transition: transform 5s;
+}
+.transicio2:hover {
+	transform: rotate(60deg);
+}
+
+
+/*tercera transició*/
+.transicio3 {
+	transition: transform 5s; 
+}
+.transicio3:hover {
+	transform: scale(0.5);
+}
+
+
+/*cuarta transició*/
+.transicio4 {
+	/*transition: all 10s;*/
+	transition: border-radius 10s, background 5s;
+}
+.transicio4:hover {
+	border-radius: 100px;
+	background: orange;
+}
+
+
+/*cinquena transició*/
+.transicio5 {
+	transition: all 10s;
+}
+.transicio5:hover {
+	border-radius: 100px;
+	transform: scale(2);
+	background: darkorchid;
+}
